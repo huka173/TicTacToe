@@ -1,0 +1,60 @@
+body {
+    background-color: #3D7AD6;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info, .help {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: #236fe2;
+    transition: all .218s ease 0s;
+}
+
+.info:hover, .help:hover{
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198, 198, 198);
+    background: #00388d;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+.info:active, .help:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: #00388d;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.main {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#field {
+    width: 50vh;
+    height: 50vh;
+}
+
+#field td {
+    background-color: #7da5e2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 40px;
+}
