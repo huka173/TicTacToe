@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" type="image/png" href="image/Logo.png"/>
+    <link rel="apple-touch-icon" href="image/Logo.png"/>
+    <title>TicTacToe</title>
+</head>
+<body>
+    <header class="head">
+        <dev class="header-info">
+            <button class="info" onclick="location.replace('./info.html')">Info</button>
+        </dev>
+        <dev class="header-logo">
+            <img src="image/Logo.png" alt="лого" width="80px" height="50px">
+        </dev>
+        <dev class="header-help">
+            <button class="help" onclick="location.replace('./help.html')">Help</button>
+        </dev>
+    </header>
+    <main class="main">
+        <table id="field">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+    <script src="script/cells.js" type="module"></script>
+    <script src="script/main.js" type="module"></script>
+    <script src="script/isVictory.js" type="module"></script>
+    <script src="script/restart.js" type="module"></script>
+</body>
+</html>
